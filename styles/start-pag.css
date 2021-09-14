@@ -67,6 +67,12 @@ button{
     right: 200px;
     
 }
+#iniciar-sesion{
+    position: relative;
+    top: 100px;
+    right: 152px;
+    
+}
 footer{
     position: absolute;
     bottom: 0;
