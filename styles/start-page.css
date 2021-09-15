@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: poppins, sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
     box-sizing: border-box;
     color:#133C55;
 }
@@ -16,7 +17,7 @@ header{
 }
 #logo{
     position: absolute;
-    left: 100px;
+    margin-left: 10vw;
     font-family: 'Volkhov', serif;
     font-size: 43px;
     color: #91E5F6;
@@ -24,12 +25,14 @@ header{
 #search-bar{
     width: 400px; height: 25px;
     position: relative;
-    left: 700px;
+    left: 30%;
+    border: none;
+    
 }
 
 nav{
-    position:absolute;
-    right: 200px;
+    position: absolute;
+    right: 10vw;
 }
 nav ul li{
     display: inline-block;
@@ -44,30 +47,55 @@ nav ul li{
 
 h1{
     margin-top: 100px;  
-    margin-left: 100px;
+    margin-left: 10vw;
     font-family: 'Volkhov', serif;
     font-size: 60px;
 } 
 main p{
-    margin-left: 100px;
+    margin-top: 40px;
+    margin-left: 10vw;
     font-family: 'Source Serif Pro', serif;
+    font-size: 1.4em;
+    text-align: justify;
+    width: 500px;
 }
 
 button{
-    width: 150px; height: 30px;
-    border-radius: 2.4rem;
+    width: 10.5em; height: 2em;
+    border-radius: 2.4em;
     border: none;
     background: #386FA4;
     color: white;
     font-family: 'Source Serif Pro', serif;
-    font-size: 18px;
+    font-size: 1.4em;
 }
 .button-box{
     position: absolute;
-    right: 200px;
-    
+    right: 10vw;
+    top: 275px;
 }
-footer{
+#iniciar-sesion{
     position: absolute;
-    bottom: 0;
+    top: 100px;
+    right: 0;
+}
+
+footer{
+    background: #59a5d8;
+    width: 100%;
+    margin-top: 200px;
+}
+#about-us{
+    width: 250px;    height: 300px; 
+    padding-top: 20px;
+    margin-left: 10vw;
+    font-family: 'Volkhov',serif;
+    font-size: 2rem;
+    color:white;
+}
+#copyright{
+    padding: 10px;
+    background: #133C55;
+    text-align: center;
+    color: #91E5F6;
 }
