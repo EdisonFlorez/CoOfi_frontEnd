@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CojaOficio</title>
+    <title>Mi perfil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&family=Volkhov:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles/profile-page.css">
 </head>
-
+<body>
   <header>
     <!-- aquí va el logo -->
     <div id="logo">CoOfi</div>
-    <input type="text" name="search-bar" id="search-bar" placeholder="Buscar">
-    <nav>
+      <nav>
         <ul>
+          <a href="index.html">
             <li>Inicio</li>
+          </a>
+          <a href="">
             <li>Ofertas</li>
+          </a>
+          <a href="services.html">
             <li>Servicios</li>
-            
+          </a>
         </ul>
     </nav>
+    
+    <img src="img/foto1.jpg" class="user-avatar"alt="Imagen de perfil del usuario">
+    
+    
   </header>
-<body>
+
   <div class="row">
     <div class="col-3">
-      <img src="img/foto1.jpg" class="img-thumbnail" alt="">
+      
       <h2>David Montilla</h2>
       <button class="btn btn-success">Adjuntar Foto</button>
       <h2>-------------------------</h2>
@@ -38,7 +46,7 @@
       
     </div>
     <div class="col-9">
-      <H3>Servicios Contratados</H3>
+      <H1>Servicios Contratados</H1>
       <table class="table table-warning">
         <thead>
           <tr>

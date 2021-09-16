@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    color:#133C55;
+}
+
+header{
+    position: relative;
+    background: #133C55;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    
+}
+#logo{
+    position: absolute;
+    margin-left: 10vw;
+    font-family: 'Volkhov', serif;
+    font-size: 43px;
+    color: #91E5F6;
+}
+#search-bar{
+    width: 400px; height: 25px;
+    position: relative;
+    left: 30%;
+    border: none;
+    
+}
+
+nav{
+    position: absolute;
+    right: 10vw;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+    list-style: none;
+    color: white;
+    padding: 20px;
+    font-family: 'Volkhov', serif; 
+    font-size: 18px;
+
+}
+#services-text{
+    color: #91E5F6;
+}
+
+canvas{
+    width: 80vw; height: 90vh;
+    margin: 0 10vw;
+    background-color: #91E5F6;
+}

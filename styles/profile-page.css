@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: poppins, sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
     box-sizing: border-box;
     color:#133C55;
 }
@@ -16,20 +17,15 @@ header{
 }
 #logo{
     position: absolute;
-    left: 100px;
+    margin-left: 10vw;
     font-family: 'Volkhov', serif;
     font-size: 43px;
     color: #91E5F6;
 }
-#search-bar{
-    width: 400px; height: 25px;
-    position: relative;
-    left: 700px;
-}
 
 nav{
-    position:absolute;
-    right: 200px;
+    position: absolute;
+    right: 15vw;
 }
 nav ul li{
     display: inline-block;
@@ -40,6 +36,14 @@ nav ul li{
     font-family: 'Volkhov', serif; 
     font-size: 18px;
 
+}
+.user-avatar{
+    width: 40px; height: 40px;
+    background-image: url("img/foto1.jpg");
+    position: absolute;
+    overflow: auto;
+    right: 10vw;
+    border-radius: 50%;
 }
 
 h1{
