@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CojaOficio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&family=Volkhov:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/edit-page.css">
+</head>
+
+  <header>
+    <!-- aquí va el logo -->
+    <div id="logo">CoOfi</div>
+    <input type="text" name="search-bar" id="search-bar" placeholder="Buscar">
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Ofertas</li>
+            <li>Servicios</li>
+            
+        </ul>
+    </nav>
+  </header>
+<body>
+  <div class="row">
+    <div class="col-3">
+      <img src="img/foto1.jpg" class="img-thumbnail" alt="">
+      <h2>David Montilla</h2>
+      <button class="btn btn-success">Adjuntar Foto</button>
+      <h2>-------------------------</h2>
+      <hr>
+      <hr>
+     
+      
+    </div>
+    <div class="col-9">
+      <H3>Editar Perfil</H3>
+      <H6>Datos Básicos</H6>
+      
+        <input type="text" placeholder="Nombres" class="secc1">
+        <input type="text" placeholder="Apellidos" class="secc1">
+        <input type="text" placeholder="Identificación" class="secc1">
+        
+        
+        <input type="text" placeholder="Correo" class="secc2">
+        <input type="text" placeholder="Dirección" class="secc2">
+        <input type="text" placeholder="Ocupación" class="secc2">
+    <hr>
+    <H6>Formación</H6>    
+    <input type="text" placeholder="Grado de escolaridad" class="secc1">
+    <input type="text" placeholder="Cursos Formales" class="secc1">
+    <input type="text" placeholder="Cursos Informales" class="secc1">
+<hr>
+
+    <H6>Experiencia</H6> 
+    <input type="text" placeholder="Ultimo Empleo" class="secc1">
+    <input type="text" placeholder="Años de experiencia" class="secc1">
+    <input type="text" placeholder="Adjuntar Hv" class="secc1"> 
+    
+    </div>
+  </div>
+  
+
+
+  <div class="row">
+    <div class="col-3">
+      
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="profile.html" role="tab" aria-controls="v-pills-home" aria-selected="true" >Mi Perfil</a>
+        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="editar.html" role="tab" aria-controls="v-pills-messages" aria-selected="false">Editar Perfil</a>
+        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="oferta.html" role="tab" aria-controls="v-pills-settings" aria-selected="false">Crear Oferta</a>
+        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="calificacion.html" role="tab" aria-controls="v-pills-settings" aria-selected="false">Calificación</a>
+        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="cerrar.html" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cerrar Sesion</a>
+        <hr>
+        <hr>
+      </div>
+    </div>
+  
+    <div class="col-9">
+      <hr>
+      <div id="grupo">
+        <button class="btn btn-primary">Agregar</button>
+      <button class="btn btn-primary">Actualizar</button>
+      <button class="btn btn-primary">Eliminar</button> 
+    </div>  
+      
+    <H6>Iniciar Sesión</H6>  
+      <input type="text" placeholder="USUARIO" class="secc3">
+        <input type="text" placeholder="CONTRASEÑA" class="secc3">
+      
+      <button class="btn btn-danger">Iniciar</button>
+    </div>
+        
+      
+      
+    </div>
+  </div>
+</body>
+
+</html>
