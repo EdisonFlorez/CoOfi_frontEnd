@@ -106,3 +106,39 @@ h3{
     font-family: 'broadway';
     font-size: 45px;
 }
+.postulate{
+    background: blue;
+}
+#numero{
+    text-align: center;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: yellow;
+    
+}
+#disponible{
+
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+    
+}
+#pais{
+
+    width: 300px;
+    margin-left: 135px;
+    margin-top: 100px;
+    
+
+}
+h4{
+    margin-top: 40px;
+    color: tomato;
+    text-align: center;
+    font-size: 35px;
+    font-family:fantasy;
+    margin-bottom: -50px;
+    
+    
+}
