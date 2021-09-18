@@ -48,8 +48,21 @@ nav ul li{
     color: #91E5F6;
 }
 
-canvas{
-    width: 80vw; height: 90vh;
+.cartelera{
+    width: 80vw; height: 85vh;
     margin: 0 10vw;
-    background-color: #91E5F6;
+    background: #91E5F6;
+}
+
+button{
+    width: 10.5em; height: 2em;
+    border-radius: 2.4em;
+    border: none;
+    background: #386FA4;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.4em;
+}
+.button-box{
+    
 }
