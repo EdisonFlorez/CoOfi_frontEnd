@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es-co">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CojaOficio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&family=Volkhov:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/profile-page.css">
+  <link rel="stylesheet" href="styles/_1_table-v2.css">
+  <link rel="icon" href="img/icon.png" >
+
+</head>
+
+<header>
+  <!-- aquí va el logo -->
+  <div id="logo">CoOfi</div>
+  <input type="text" name="search-bar" id="search-bar" placeholder="Buscar">
+  <nav>
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>Ofertas</li>
+          <li><a href="ofertas.html">Servicios</a></li>
+          
+      </ul>
+  </nav>
+</header>
+
+<body>
+<!--<div class="tbl">
+    <table class="tbl__table text-unit-em text-sm border-bottom border-2" aria-label="Table Example">
+      <thead class="tbl__header border-bottom border-2">
+        <tr class="tbl__row">
+          <th class="tbl__cell text-left" scope="col">
+            <span class="text-xs text-uppercase letter-spacing-lg font-semibold">Name</span>
+          </th>
+  
+          <th class="tbl__cell text-left" scope="col">
+            <span class="text-xs text-uppercase letter-spacing-lg font-semibold">Job</span>
+          </th>
+  
+          <th class="tbl__cell text-left" scope="col">
+            <span class="text-xs text-uppercase letter-spacing-lg font-semibold">Country</span>
+          </th>
+          
+          <th class="tbl__cell text-left" scope="col">
+            <span class="text-xs text-uppercase letter-spacing-lg font-semibold">Status</span>
+          </th>
+  
+          <th class="tbl__cell text-right" scope="col">
+            <span class="text-xs text-uppercase letter-spacing-lg font-semibold">Salary</span>
+          </th>
+        </tr>
+      </thead>
+      
+      <tbody class="tbl__body">
+        <tr class="tbl__row">
+          <td class="tbl__cell" role="cell">
+            <div class="flex items-center">
+              <figure class="width-lg height-lg radius-50% flex-shrink-0 overflow-hidden margin-right-xs">
+                <img class="block width-100% height-100% object-cover" src="img/foto1.png" alt="Author picture">
+              </figure>
+  
+              <div class="line-height-xs">
+                <p class="margin-bottom-xxxxs">Olivia Saturday</p>
+                <p class="color-contrast-medium">olivia@email.com</p>
+              </div>
+            </div>
+          </td>
+  
+          <td class="tbl__cell" role="cell">Senior Data Engineer</td>
+  
+          <td class="tbl__cell" role="cell">USA</td>
+  
+          <td class="tbl__cell" role="cell">
+            <span class="inline-block text-sm bg-success bg-opacity-20% color-success-darker radius-full padding-y-xxxs padding-x-xs ws-nowrap">Online</span>
+          </td>
+  
+          <td class="tbl__cell text-right" role="cell">$320,000</td>
+        </tr>
+  
+        <tr class="tbl__row">
+          <td class="tbl__cell" role="cell">
+            <div class="flex items-center">
+              <figure class="width-lg height-lg radius-50% flex-shrink-0 overflow-hidden margin-right-xs">
+                <img class="block width-100% height-100% object-cover" src="img/foto1.png" alt="Author picture">
+              </figure>
+  
+              <div class="line-height-xs">
+                <p class="margin-bottom-xxxxs">David Smith</p>
+                <p class="color-contrast-medium">david@email.com</p>
+              </div>
+            </div>
+          </td>
+  
+          <td class="tbl__cell" role="cell">Strategic Finance Manager</td>
+  
+          <td class="tbl__cell" role="cell">United Kingdom</td>
+  
+          <td class="tbl__cell" role="cell">
+            <span class="inline-block text-sm bg-error bg-opacity-20% color-error-darker radius-full padding-y-xxxs padding-x-xs ws-nowrap">Offline</span>
+          </td>
+  
+          <td class="tbl__cell text-right" role="cell">$180,000</td>
+        </tr>
+  
+        <tr class="tbl__row">
+          <td class="tbl__cell" role="cell">
+            <div class="flex items-center">
+              <figure class="width-lg height-lg radius-50% flex-shrink-0 overflow-hidden margin-right-xs">
+                <img class="block width-100% height-100% object-cover" src="img/foto1.png" alt="Author picture">
+              </figure>
+  
+              <div class="line-height-xs">
+                <p class="margin-bottom-xxxxs">Marta Rossi</p>
+                <p class="color-contrast-medium">marta@email.com</p>
+              </div>
+            </div>
+          </td>
+  
+          <td class="tbl__cell" role="cell">Lead Software Engineer</td>
+  
+          <td class="tbl__cell" role="cell">Italy</td>
+  
+          <td class="tbl__cell" role="cell">
+            <span class="inline-block text-sm bg-success bg-opacity-20% color-success-darker radius-full padding-y-xxxs padding-x-xs ws-nowrap">Online</span>
+          </td>
+  
+          <td class="tbl__cell text-right" role="cell">$250,000</td>
+        </tr>
+  
+        <tr class="tbl__row">
+          <td class="tbl__cell" role="cell">
+            <div class="flex items-center">
+              <figure class="width-lg height-lg radius-50% flex-shrink-0 overflow-hidden margin-right-xs">
+                <img class="block width-100% height-100% object-cover" src="img/foto1.png" alt="Author picture">
+              </figure>
+  
+              <div class="line-height-xs">
+                <p class="margin-bottom-xxxxs">Paul Brown</p>
+                <p class="color-contrast-medium">paul@email.com</p>
+              </div>
+            </div>
+          </td>
+  
+          <td class="tbl__cell" role="cell">Digital Content Writer</td>
+  
+          <td class="tbl__cell" role="cell">USA</td>
+  
+          <td class="tbl__cell" role="cell">
+            <span class="inline-block text-sm bg-success bg-opacity-20% color-success-darker radius-full padding-y-xxxs padding-x-xs ws-nowrap">Online</span>
+          </td>
+  
+          <td class="tbl__cell text-right" role="cell">$145,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div> -->
+
+  <h3>Servicios </h3>
+
+  <table class="tg">
+    <colgroup>
+    <col style="width: 108px">
+    <col style="width: 188px">
+    <col style="width: 220px">
+    <col style="width: 189px">
+    <col style="width: 119px">
+    <col style="width: 150px">
+    <col style="width: 150px">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="tg-amwm">Foto</th>
+        <th class="tg-b0u1">Nombre<br></th>
+        <th class="tg-b0u1">Servicio</th>
+        <th class="tg-b0u1">Ubicacion</th>
+        <th class="tg-b0u1">Perfil</th>
+        <th class="tg-b0u1">Tarifa</th>
+        <th class="tg-b0u1">Aplicar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax"><img src="img/foto1.png" alt="Image" width="60" height="100"></td>
+        <td class="tg-baqh"><br><br>David Alejandro Gonzalez<br></td>
+        <td class="tg-baqh"><br><br> Profesor <br></td>
+        <td class="tg-baqh"><br><br>Online</td>
+        <td class="tg-baqh"><br><br>Profesor de Matemáticas<br></td>
+        <td class="tg-baqh"><br><br>25000 $/h<br></td>
+        <td class="tg-baqh"><br><br><button onclick="window.location.href='profile.html'">Click me</button><br></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"><img src="img/foto1.png" alt="Image" width="60" height="100"></td>
+        <td class="tg-baqh"><br><br>David Alejandro Gonzalez<br></td>
+        <td class="tg-baqh"><br><br> Profesor <br></td>
+        <td class="tg-baqh"><br><br>Online</td>
+        <td class="tg-baqh"><br><br>Profesor de Matemáticas<br></td>
+        <td class="tg-baqh"><br><br>25000 $/h<br></td>
+        <td class="tg-baqh"><br><br><button onclick="window.location.href='profile.html'">Click me</button><br></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"><img src="img/foto1.png" alt="Image" width="60" height="100"></td>
+        <td class="tg-baqh"><br><br>David Alejandro Gonzalez<br></td>
+        <td class="tg-baqh"><br><br> Profesor <br></td>
+        <td class="tg-baqh"><br><br>Online</td>
+        <td class="tg-baqh"><br><br>Profesor de Matemáticas<br></td>
+        <td class="tg-baqh"><br><br>25000 $/h<br></td>
+        <td class="tg-baqh"><br><br><button onclick="window.location.href='profile.html'">Click me</button><br></td>
+      </tr>
+
+      <tr>
+        <td class="tg-0lax"><img src="img/foto1.png" alt="Image" width="60" height="100"></td>
+        <td class="tg-baqh"><br><br>David Alejandro Gonzalez<br></td>
+        <td class="tg-baqh"><br><br> Profesor <br></td>
+        <td class="tg-baqh"><br><br>Online</td>
+        <td class="tg-baqh"><br><br>Profesor de Matemáticas<br></td>
+        <td class="tg-baqh"><br><br>25000 $/h<br></td>
+        <td class="tg-baqh"><br><br><button onclick="window.location.href='profile.html'">Click me</button></form><br></td>
+      </tr>
+
+    </tbody>
+    </table>
+
+
+
+
+</body>
+</html>
