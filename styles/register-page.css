@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    color:#133C55;
+}
+h1{
+    font-family: 'Volkhov', serif;
+    font-size: 43px;
+    padding: 40px 10vw;
+}
+body{
+    background: #91e5f6;
+    
+}
+main{
+    margin: 0 10vw;
+    
+}
+button{
+    width: 10.5em; height: 2em;
+    border-radius: 2.4em;
+    border: none;
+    background: #133C55;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.4em;
+    display: block;
+    margin: 20px 0;
+
+}
+input{
+    width: 300px;
+    margin-top:20px;
+    margin-right: 40px;
+}
