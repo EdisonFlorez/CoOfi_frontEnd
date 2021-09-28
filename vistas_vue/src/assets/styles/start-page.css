@@ -62,12 +62,8 @@ nav ul li{
     font-size: 18px;
 
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-
 .logo{
+    
     position: absolute;
     left: 10vw;  
     font-family: 'Volkhov', serif;
