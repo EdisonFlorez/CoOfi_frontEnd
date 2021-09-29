@@ -1,7 +1,8 @@
 <template>
-  <div class="services">
+  <div class="offers">
     <Header/>
     <Canvas/>
+    <p>esta es la pág de ofertas</p>
     <Footer/>
   </div>
 </template>
@@ -11,7 +12,7 @@ import Header from '../components/Header.vue'
 import Canvas from '../components/Canvas.vue'
 import Footer from '../components/Footer.vue'
 export default{
-  name: 'Services',
+  name: 'Offers',
   components:{
     Header,
     Canvas,
@@ -27,5 +28,8 @@ export default{
 </script>
 
 <style scoped>
+.offers-text{
+    color:orangered;
+}
 
 </style>

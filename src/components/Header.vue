@@ -12,12 +12,13 @@
     />
     <nav>
       <ul>
-        <router-link to ="/offers">
+        <router-link to="/offers">
           <li id="offers-text">Ofertas</li>
         </router-link>
         <router-link to="/services">
           <li id="services-text">Servicios</li>
         </router-link>
+        <span class="user-avatar" v-if="user_log">muestra</span>
       </ul>
     </nav>
   </header>
@@ -26,10 +27,16 @@
 <script>
 export default {
   name: "Header",
+  data: () => {
+    return {
+      user_log: false,
+    };
+  },
 };
 </script>
 <style scoped>
-a {
-  text-decoration: none;
+.user-avatar {
+  display: block;
+  background: orangered;
 }
 </style>

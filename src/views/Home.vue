@@ -2,10 +2,7 @@
   <div class="home">
     <Header/>
     <Main/>
-    <div class="about-us"> Un poquito de nosotros
-          <p> Somos un equipo de trabajo colombiano, estudiantes con muchas ganas de aprender y progresar en esta bonita tarea que es codificar.
-          </p>
-      </div>
+    
     <Footer/>    
   </div>
 </template>
