@@ -1,6 +1,7 @@
 body{
     background: #91e5f6;
     margin-top: 100px;
+
 }
 .secc1{
     margin-top: 25px;
@@ -11,8 +12,10 @@ body{
     margin-left: 400px;
     margin-right: 400px;
     text-align: center;
+    padding-top: 20px;
     background-color: blue;
     margin-bottom: 30px;
+    border-radius: 5px;
     
 }
 h1{
