@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Services from "../views/Services.vue";
 import Offers from "../views/Offers.vue"
+import Profile from "../views/Profile.vue"
+
 
 Vue.use(VueRouter);
 
@@ -21,6 +23,11 @@ const routes = [
     path: "/offers",
     name: "Offers",
     component: Offers,
+  },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: Profile,
   },
 ];
 
