@@ -16,7 +16,8 @@
           <li id="offers-text">Ofertas</li>
         </router-link>
         <router-link to="/services">
-          <li id="services-text">Servicios</li>
+          <li v-if="!active" id="services-text">Servicios</li>
+          <li v-if="active" class="active" id="services-text">Servicios</li>
         </router-link>
         <span class="user-avatar" v-if="user_log">muestra</span>
       </ul>
@@ -27,6 +28,10 @@
 <script>
 export default {
   name: "Header",
+  props: {
+    active: Boolean,
+    vista_offer: Boolean,
+  },
   data: () => {
     return {
       user_log: false,
@@ -35,8 +40,12 @@ export default {
 };
 </script>
 <style scoped>
+.active{
+  background: orange;
+}
 .user-avatar {
   display: block;
   background: orangered;
 }
 </style>
+

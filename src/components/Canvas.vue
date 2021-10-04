@@ -28,8 +28,8 @@
         </div>
 
         <div class="button-box">
-          <button id="offer-services">Ofrece un servicio</button>
-          <button id="hire-service">Contratar servicio</button>
+          <button id="offer-services">{{valorbtn1}}</button>
+          <button  id="hire-service">{{ valorbtn2 }}</button>
         </div>
       </div>
     </main>
@@ -39,11 +39,22 @@
 <script>
 export default {
   name: "Canvas",
+  props: {
+    valorbtn1: String,
+     valorbtn2:String},
+  data: () => {
+    return {
+      service: true,
+      ServiceLabel: "Ofrece un servicio",
+      hireLabel: "Contratar servicio",
+      offerLabel: "Publica tu oferta",
+      applyLabel: "Postúlate",
+    };
+  },
 };
 </script>
 
-<style>
-
+<style scoped>
 .cartelera {
   position: relative;
   width: 80vw;

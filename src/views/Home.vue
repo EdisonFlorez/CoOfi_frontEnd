@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <Header/>
-    <Main/>
-    
-    <Footer/>    
+    <Header />
+    <Main />
+
+    <Footer />
   </div>
 </template>
 
@@ -23,8 +23,8 @@ export default {
 };
 </script>
 <style>
-@import url('../assets/styles/home-page.css');
-a{
+@import url("../assets/styles/home-page.css");
+a {
   text-decoration: none;
 }
 </style>

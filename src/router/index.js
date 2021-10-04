@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Services from "../views/Services.vue";
-import Offers from "../views/Offers.vue"
+import Offers from "../views/Offers.vue";
 
 Vue.use(VueRouter);
 
