@@ -1,6 +1,8 @@
 <template>
   <div class="canvas">
     <main>
+
+      
       <div id="cartelera-servicios" class="cartelera">
         <div class="container-entries">
           <section>
