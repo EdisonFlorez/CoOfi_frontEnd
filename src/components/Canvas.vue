@@ -28,8 +28,8 @@
         </div>
 
         <div class="button-box">
-          <button id="offer-services">{{valorbtn1}}</button>
-          <button  id="hire-service">{{ valorbtn2 }}</button>
+          <button id="offer-services">{{ valorbtn1 }}</button>
+          <button id="hire-service">{{ valorbtn2 }}</button>
         </div>
       </div>
     </main>
@@ -41,14 +41,11 @@ export default {
   name: "Canvas",
   props: {
     valorbtn1: String,
-     valorbtn2:String},
+    valorbtn2: String,
+  },
   data: () => {
     return {
       service: true,
-      ServiceLabel: "Ofrece un servicio",
-      hireLabel: "Contratar servicio",
-      offerLabel: "Publica tu oferta",
-      applyLabel: "Postúlate",
     };
   },
 };
@@ -74,6 +71,7 @@ button {
   color: white;
   font-family: "Source Serif Pro", serif;
   font-size: 1.4em;
+  margin: 5px;
 }
 .container-entries {
   height: 200px;
@@ -85,12 +83,11 @@ button {
 .button-box {
   position: sticky;
   bottom: 0;
+  right: 0;
   padding: 15px;
   background: #91e5f6;
 }
-#hire-service {
-  visibility: visible;
-}
+
 .copyright {
   margin-top: 60px;
   padding: 10px;

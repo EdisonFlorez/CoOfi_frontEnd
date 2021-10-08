@@ -1,8 +1,7 @@
 <template>
   <div class="offers">
     <Header />
-    <Canvas />
-    <p>esta es la pág de ofertas</p>
+    <Canvas valorbtn1="Publica una oferta" valorbtn2="Aplicar"/>
     <Footer />
   </div>
 </template>
