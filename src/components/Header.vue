@@ -2,7 +2,7 @@
   <header>
     <!-- aquí va el logo -->
 
-    <router-link to="/" class="logo">CoOfi</router-link>
+    <router-link to="/" :active-class="false" class="logo">CoOfi</router-link>
 
     <input
       type="text"
