@@ -1,8 +1,6 @@
 <template>
   <div class="canvas">
     <main>
-
-      
       <div id="cartelera-servicios" class="cartelera">
         <div class="container-entries">
           <section>
@@ -30,8 +28,8 @@
         </div>
 
         <div class="button-box">
-          <button id="offer-services">Ofrece un servicio</button>
-          <button id="hire-service">Contratar servicio</button>
+          <button id="offer-services">{{ valorbtn1 }}</button>
+          <button id="hire-service">{{ valorbtn2 }}</button>
         </div>
       </div>
     </main>
@@ -41,11 +39,19 @@
 <script>
 export default {
   name: "Canvas",
+  props: {
+    valorbtn1: String,
+    valorbtn2: String,
+  },
+  data: () => {
+    return {
+      service: true,
+    };
+  },
 };
 </script>
 
-<style>
-
+<style scoped>
 .cartelera {
   position: relative;
   width: 80vw;
@@ -65,6 +71,7 @@ button {
   color: white;
   font-family: "Source Serif Pro", serif;
   font-size: 1.4em;
+  margin: 5px;
 }
 .container-entries {
   height: 200px;
@@ -76,12 +83,11 @@ button {
 .button-box {
   position: sticky;
   bottom: 0;
+  right: 0;
   padding: 15px;
   background: #91e5f6;
 }
-#hire-service {
-  visibility: visible;
-}
+
 .copyright {
   margin-top: 60px;
   padding: 10px;

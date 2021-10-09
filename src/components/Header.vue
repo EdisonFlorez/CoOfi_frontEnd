@@ -13,10 +13,12 @@
     <nav>
       <ul>
         <router-link to="/offers">
-          <li id="offers-text">Ofertas</li>
+          <li v-if="active" id="offers-text">Ofertas</li>
+          <li v-if="!active" class="active" id="offers-text">Ofertas</li>
         </router-link>
         <router-link to="/services">
-          <li id="services-text">Servicios</li>
+          <li v-if="!active" id="services-text">Servicios</li>
+          <li v-if="active" class="active" id="services-text">Servicios</li>
         </router-link>
         <span class="user-avatar" v-if="user_log">muestra</span>
       </ul>
@@ -27,6 +29,9 @@
 <script>
 export default {
   name: "Header",
+  props: {
+    active: Boolean,
+  },
   data: () => {
     return {
       user_log: false,
@@ -35,6 +40,9 @@ export default {
 };
 </script>
 <style scoped>
+.active {
+  color: #91e5f6;
+}
 .user-avatar {
   display: block;
   background: orangered;
