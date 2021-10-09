@@ -16,12 +16,7 @@ export default {
     Header,
     Canvasofertas,
     Footer,
-  }
+  },
 };
 </script>
 
-<style scoped>
-.offers-text {
-  color: orangered;
-}
-</style>
