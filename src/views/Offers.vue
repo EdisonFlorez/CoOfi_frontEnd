@@ -2,6 +2,7 @@
   <div class="offers">
     <Header/>
     <Canvasofertas/>
+    <Footer/>
     
     
     
@@ -12,12 +13,13 @@
 <script>
 import Header from '../components/Header.vue'
 import Canvasofertas from '../components/Canvasofertas.vue'
-
+import Footer from '../components/Footer.vue'
 export default{
   name: 'Offers',
   components:{
     Header,
     Canvasofertas,
+    Footer,
     
     
     
