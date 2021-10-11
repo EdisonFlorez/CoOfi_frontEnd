@@ -328,12 +328,11 @@ button {
 .button-box {
   position: sticky;
   bottom: 0;
+  right: 0;
   padding: 15px;
   background: #91e5f6;
 }
-#hire-service {
-  visibility: visible;
-}
+
 .copyright {
   margin-top: 60px;
   padding: 10px;

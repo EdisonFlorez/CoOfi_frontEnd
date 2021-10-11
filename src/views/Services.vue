@@ -1,7 +1,7 @@
 <template>
   <div class="services">
-    <Header :active="true"/>
-    <Canvas valorbtn1="Ofrece tu servicio" valorbtn2="Contratar servicio"/>
+    <Header :active="true" />
+    <Canvas valorbtn1="Ofrece tu servicio" valorbtn2="Contratar servicio" />
     <Footer />
   </div>
 </template>
@@ -24,5 +24,3 @@ export default {
   },
 };
 </script>
-
-
