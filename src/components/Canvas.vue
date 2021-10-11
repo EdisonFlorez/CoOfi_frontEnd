@@ -8,24 +8,6 @@
             indefinido.
           </section>
         </div>
-        <div class="container-entries">
-          <section>
-            Se requiere contador experiencia de 2 años contrato a término
-            indefinido.
-          </section>
-        </div>
-        <div class="container-entries">
-          <section>
-            Se requiere contador experiencia de 2 años contrato a término
-            indefinido.
-          </section>
-        </div>
-        <div class="container-entries">
-          <section>
-            Se requiere contador experiencia de 2 años contrato a término
-            indefinido.
-          </section>
-        </div>
 
         <div class="button-box">
           <button id="offer-services">{{ valorbtn1 }}</button>

@@ -1,20 +1,20 @@
 <template>
   <div class="offers">
     <Header />
-    <Canvasofertas />
+    <Canvas/>
     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
-import Canvasofertas from "../components/Canvasofertas.vue";
+import Canvas from "../components/Canvas.vue";
 import Footer from "../components/Footer.vue";
 export default {
   name: "Offers",
   components: {
     Header,
-    Canvasofertas,
+    Canvas,
     Footer,
   },
 };

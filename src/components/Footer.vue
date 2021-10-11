@@ -26,4 +26,8 @@ export default {
   font-family: "volkhov", serif;
   color: #91e5f6;
 }
+footer{
+  position: absolute;
+  bottom: -500px;
+}
 </style>
