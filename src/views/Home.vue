@@ -2,7 +2,6 @@
   <div class="home">
     <Header />
     <Main />
-
     <Footer />
   </div>
 </template>

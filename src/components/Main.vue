@@ -29,3 +29,21 @@ export default {
   name: "Main",
 };
 </script>
+
+<style scoped>
+main{
+  margin-right: 150vw;
+}
+button {
+  width: 10.5em;
+  height: 2em;
+  border-radius: 2.4em;
+  border: none;
+  background: #133c55;
+  color: white;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.4em;
+  margin: 5px;
+}
+
+</style>
